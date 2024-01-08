@@ -1,14 +1,15 @@
 footer{
     width: 100vw;
-    background: #D9534F;
+    background: #E8505B;
     justify-content: center;
     align-items: stretch;
     justify-items: center;
     padding-left: -10vw;
     display:flex;
-    border-top: 2px #DF2E2E;
 }
-
+.footer_tag > p {
+    color: #000000;
+}
 footer .footer_main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
